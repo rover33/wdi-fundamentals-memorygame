@@ -10,20 +10,13 @@ body {
   font-weight: 400;
   font-size: 45px;
   margin: 0;
+  text-transform: uppercase;
   }
   
   h2 {
   font-family: "Raleway", sans-serif;
-  color: #F15B31;  
-  letter-spacing: 1px;  
-  font-weight: 600;
-  font-size: 18px;
-  margin: 0px;
-  }
-  
-  h3 {
-  font-family: "Raleway", sans-serif;
   color: #0D2C40;  
+  text-transform: uppercase;
   letter-spacing: 1px;  
   font-weight: 600;
   font-size: 20px;
@@ -42,17 +35,23 @@ body {
   
   nav {
     background-color: #00A6B3;
-    color: #FFFFFF;
     padding: 20px 0 20px 0;
   }
   
   a { margin: 0 20px 0 20px;
+    color: #FFFFFF;
     border-bottom: 2px solid transparent;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;  
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
     }
-  
+
   a:hover {
-  /* Your styles here */
-  }
+    border: white;
+    }
   
   main {
     width: 850px;
@@ -72,6 +71,7 @@ footer {
   color: white;
   letter-spacing: .08em;
   font-weight: 500;
+  font-size: 14px;
 }
 
   .clearfix:after {
@@ -96,4 +96,8 @@ footer {
   .name {
     color: #F15B31;
     weight: 700;
+  }
+
+img {
+    margin: 40px 8px 0 8px;
   }
